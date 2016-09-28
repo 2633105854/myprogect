@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+body{
+	background-color: #000;
+}
+.fudong{
+	float: left;
+}
+.biaodan{
+	width: 600px;
+	height: 100%;
+	background-color: #000;
+	text-align: center;
+	padding-top: 100px;
+	opacity:0.7;
+	
+	
+}
+.wenben{
+	color: #FFF;
+	font-family: 楷体;
+}
+。wenben_shuru{
+	width:200px;
+}
+#xiala
+{
+	width: 95%;
+	border-radius:5px;
+	height:40px;
+	margin: 5px;
+	color: #000;
+	font-size: 16px;
+}
+#form_div
+{
+	padding-bottom:10px;
+	padding-top: 30px;
+	background-color: #000;
+	color: #FFF;
+	font-family: 楷体;
+}
+#myform_div
+{
+	padding-left: 40px;
+	padding-right:40px;
+	margin-left: 300px;
+}
+#mytable_div
+{
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #000;
+	
+}
+#mytr{
+	opacity:0.7;
+	background-color:#000;
+	color: #FFF;
+}
+#myb{
+	background-image: url(img1.jpg);
+	height: 100%;
+}
+

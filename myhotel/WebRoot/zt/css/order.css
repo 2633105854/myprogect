@@ -1,0 +1,132 @@
+zt/body{ margin:0; padding:0}
+	.up{ width:1200px; 
+		height:80px; 
+		background:url(../images/upbg.jpg); 
+		margin:0 auto}
+	.top{ float:right; line-height:30px}
+	.main{ width:1200px; margin:0 auto}
+	.left{ width:250px; height:550px;float:left; background:#566885}
+	.right{ width:950px;height:550px;float:right;}
+	.r1{ width:940px; margin:0px 0px 0px 10px;auto; height:350px; background:#FFFFFF}
+	.r2{ width:940px; margin:0px 0px 0px 10px;height:200px; background:#FFFFFF}
+	.order.tr.td{}
+	/*-----------------------------------------------------------------------------------*/
+/*	MENU
+/*-----------------------------------------------------------------------------------*/
+input.text{text-align:center;}
+#menu {
+	float: left;
+	text-align: left;
+	font-family: 'Amaranth', sans-serif;
+	font-size: 17px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	position: relative;
+	z-index: 100;
+	padding: 0 0 0 24px;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+}
+
+.menu-v ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 200px;
+	background: transparent url(zt/style/images/menu-line.png) no-repeat center bottom;
+}
+ 
+.menu-v ul li{
+	position: relative;
+	padding-right: 5px;
+	background: transparent url(zt/style/images/menu-line.png) no-repeat center top;
+	padding: 0;
+}
+
+.menu-v ul li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 12px 0 10px 20px;
+	padding-right: 17px;
+	background: transparent; 
+	color: #f0f0f0;
+	text-decoration: none;
+	border: none;
+}
+
+.menu-v ul li a.active, .menu-v ul li a.selected, .menu-v ul li a:hover{
+	text-decoration: none;
+	background: transparent url(zt/style/images/menu-hover.png) repeat-y left top;
+	color: #fff;
+}
+
+.menu-v ul li ul{
+	position: absolute;
+	width: 130px; 
+	top: 0px;
+	font-weight: normal;
+	visibility: hidden;
+	text-align: left;
+	padding: 0 15px 0 15px;
+	margin-left: 0;
+	background: #596d7f url(zt/style/images/noize.png) repeat top center;
+	-webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.10);
+	-moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.10);
+	box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.10);
+	border: 1px solid rgba(0, 0, 0, 0.30);
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.menu-v ul li ul li{
+	background: transparent url(zt/style/images/dropdown-line.png) repeat-x left top;
+}
+
+.menu-v ul li ul li:first-child {
+	background: none;
+	padding-bottom: 0;
+}
+
+.menu-v ul li ul li a{
+	padding: 12px 0;
+}
+
+.menu-v ul li ul li a.active, .menu-v ul li ul li a.selected, .menu-v ul li ul li a:hover{
+	background: none;
+}
+
+
+.menu-v ul li ul {
+	
+}
+
+* html .menu-v ul li { float: left; height: 1%; }
+* html .menu-v ul li a { height: 1%; }
+
+
+table.order {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #a9c6c9;
+	border-collapse: collapse;
+}
+table.order th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+table.order td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+.oddrowcolor{
+	background-color:#d4e3e5;
+}
+.evenrowcolor{
+	background-color:#c3dde0;
+}

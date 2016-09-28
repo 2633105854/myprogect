@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+.back{
+	background-image: url("img1.jpg");
+	babackground-size:cover;
+	opacity:0.5;
+}

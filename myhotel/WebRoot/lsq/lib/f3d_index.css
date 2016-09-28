@@ -1,0 +1,17 @@
+body  {
+	font: 13px/30px 'Trebuchet MS', Helvetica, sans-serif;
+	color: #333;
+	margin: 0 auto;
+}
+
+input, textarea { padding: 7px 0 7px 7px; border-color: #ccc #efefef #efefef #ccc; border-width:1px; border-style:solid;}
+input.but {border: 1px solid #ccc; padding: 4px 10px 4px 10px; cursor: pointer;}
+
+a:link, a:visited  { color: #990000; text-decoration:none;}
+a:hover {color: #000; text-decoration:underline;}
+
+h1 {font-size:50px; line-height:1em; letter-spacing:-0.1em}
+img{
+	height:500px;
+	width:800px;
+}
